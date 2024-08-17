@@ -1,0 +1,13 @@
+[global]
+developmentMode = false
+
+[browser]
+serverAddress = "0.0.0.0"
+gatherUsageStats = false
+headless = true
+
+[server]
+enableCORS = false
+
+[client]
+toolbarMode = "minimal"
