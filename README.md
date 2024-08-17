@@ -1,30 +1,32 @@
 > This workshop is for LLM generating MKT content
 
 ## Getting Started
-1. To start the workshop, follow these steps:
+1. install miniconda [miniconda installer](https://docs.conda.io/en/latest/miniconda.html)
 ```bash
-# install miniconda
-    ## mac
-    brew install miniconda
-    ## other systems
-    [miniconda installer](https://docs.conda.io/en/latest/miniconda.html)
-# Create a new conda environment with Python 3.10
+## mac
+brew install miniconda
+```
+2. create python venv
+```bash
 conda create -n py310 python=3.10
-
-# Activate the conda environment
+```
+3. activate venv
+```bash
 conda activate py310
-
-# Clone the repository to your local machine
-git clone  ...
-
-# Navigate to the project directory
+```
+4. clone repo
+```bash
+git clone  https://github.com/sanxibengbeng/smart-marketing-llm-workshop
+```
+5. cd repo
+```bash
 cd smart-marketing-llm-workshop
-
-# Install dependencies from requirements.txt
+```
+6. Install dependencies from requirements.txt
+```bash
 pip install -r requirements.txt
 ```
-
-2. After installing, you can launch the application simply by running:
+7. After installing, you can launch the application simply by running:
 
 ```bash
 streamlit run Index.py

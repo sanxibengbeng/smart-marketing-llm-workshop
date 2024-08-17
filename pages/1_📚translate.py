@@ -1,7 +1,6 @@
 import streamlit as st
 import boto3
 import json
-from datetime import datetime
 
 st.set_page_config(
     page_title="Translator",
