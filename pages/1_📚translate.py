@@ -56,7 +56,7 @@ def app():
     with col1:
         # 输入文本
         st.markdown("**Source TEXT:**")
-        text = st.text_area("", height=400)
+        text = st.text_area("", height=300)
 
         model_id = st.selectbox("Model", ["anthropic.claude-3-haiku-20240307-v1:0", "anthropic.claude-3-5-sonnet-20240620-v1:0"])
         # 选择目标语言

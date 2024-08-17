@@ -27,5 +27,5 @@ pip install -r requirements.txt
 2. After installing, you can launch the application simply by running:
 
 ```bash
-streamlit run app.py
+streamlit run Index.py
 ```
